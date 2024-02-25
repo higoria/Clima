@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seu clima</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <div class="conteiner">
+    <form class="pesquisa">
+      <i class="fa-solid fa-location-dot"></i>
+      <input type="search" name="nome-cidade" id="nome-cidade" placeholder="Buscar cidade">
+      <button type="submit" class="botao">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </button>
+    </form>
+    <div class="resultado">
+      <h1 class="titulo-cidade"></h1>
+      <div class="infos">
+        <div class="temperatura">
+          <img class="img" src="http://openweathermap.org/img/wn/04d@2x.png" alt="">
+          <div class="valor">
+            <p class="tempo-valor"></p>
+            <p class="tempo-descriçao">Nublado</p>
+
+          </div>
+        </div>
+        <div class="infos2">
+          <div class="info 01">
+            <i class="fa-solid fa-temperature-high max"></i>
+            <div>
+              <h2>Temp. max</h2>
+              <p class="tempo-max"><sup>°C</sup></p>
+            </div>
+          </div>
+          <div class="info 02">
+            <i class="fa-solid fa-temperature-low min"></i>
+            <div>
+              <h2>Temp. min</h2>
+              <p class="tempo-min"> <sup>°C</sup></p>
+            </div>
+          </div>
+
+          <div class="info 03">
+            <i class="fa-solid fa-droplet humidade"></i>
+            <div>
+              <h2>Humidade</h2>
+              <p class="tempo-humidade"></p>
+            </div>
+          </div>
+
+          <div class="info 04">
+            <i class="fa-solid fa-wind vento"></i>
+            <div>
+              <h2>Vento</h2>
+              <p class="tempo-vento"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="alert"></div>
+  </div>
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
