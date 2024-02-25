@@ -5,17 +5,11 @@
 }
 
 body {
-  background: rgb(18, 174, 207);
-  background: linear-gradient(
-    79deg,
-    rgba(18, 174, 207, 1) 0%,
-    rgba(18, 66, 255, 1) 84%
-  );
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url("/assets/img/bg.jpeg") no-repeat center/cover;
+  background: linear-gradient(#3b82f6, #4a7dff);
 }
 .conteiner {
   background-color: #fff;
