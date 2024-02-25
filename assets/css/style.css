@@ -15,6 +15,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: url("/assets/img/bg.jpeg") no-repeat center/cover;
 }
 .conteiner {
   background-color: #fff;
